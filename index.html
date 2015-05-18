@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Youtube Data API v3 & jQuery To List Channel Videos</title>
+	<link rel="stylesheet" href="static/css/main.css">
+
+	<!-- Google+ -->
+	<meta itemprop="name" content="Youtube Data API v3 & jQuery To List Channel Videos">
+	<meta itemprop="description" content="Como carregar playlist do youtube no seu site">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="website">
+	<meta name="twitter:site" content="@guilobat">
+	<meta name="twitter:title" content="Youtube Data API v3 & jQuery To List Channel Videos">
+	<meta name="twitter:description" content="Como carregar playlist do youtube no seu site">
+	<meta name="twitter:creator" content="@guilobat">
+
+
+	<!-- Facebook Tags -->
+	<meta property="og:title" content="Youtube Data API v3 & jQuery To List Channel Videos" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.example.com/" />
+	<meta property="og:description" content="Como carregar playlist do youtube no seu site" />
+	<meta property="og:site_name" content="www.guilhermelobato.com" />
+</head>
+<body>
+	<h1>Youtube Data API v3 & jQuery To List Channel Videos</h1>
+	<ul id="listaVideos">
+		<li id="customList">
+			<iframe class="video_player" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+			<a class="canal" target="_blank">
+				<span class="titulo_video"></span>
+				<span class="descricao_video"></span>
+				<span class="data_video"></span>
+
+			</a>
+		</li>
+	</ul>
+	<img id="carregandoImg" src="static/img/carregando.gif" alt="Carregando">
+	<a href="#" id="carregar_mais_video">Carregar mais</a>
+	<br clear="all">
+	<br clear="all">
+	<br clear="all">
+	<div id="msgFimVideos">Todos os vídeos foram carregados</div>
+	
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="static/js/main.js"></script>
+</body>
+</html>
